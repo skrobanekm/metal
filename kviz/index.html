@@ -32,9 +32,7 @@
                         <a class="dropdown-item" href="../rammstein/index.html">Rammstein</a>
                         <a class="dropdown-item" href="../slipknot/index.html">Slipknot</a>
                         <a class="dropdown-item" href="../black-sabbath/index.html">Black Sabbath</a>
-                        <a class="dropdown-item" href="../judas-priest/index.html">Judas Priest</a>
                         <a class="dropdown-item" href="../motorhead/index.html">Motörhead</a>
-                        <a class="dropdown-item" href="../panthera/index.html">Panthera</a>
                         <a class="dropdown-item" href="../slayer/index.html">Slayer</a>
                     </div>
                 </li>
@@ -53,7 +51,7 @@
             <div class="form-group row">
                 <label for="listina" class="col-sm-3 col-form-label">Kapela z Německa</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="listina" id="listina" placeholder="">
+                    <input type="text" class="form-control" name="kapela" id="kapela" placeholder="">
                 </div>
             </div>
             <p class="alert alert-success odpoved collapse">Rammstein</p>
@@ -63,7 +61,7 @@
             <div class="form-group row">
                 <label for="kral" class="col-sm-3 col-form-label">Jméno maskota</label>
                 <div class="col-sm-3">
-                      <select class="form-control" name="kral" id="kral">
+                      <select class="form-control" name="maskot" id="maskot">
                         <option>Freddie</option>
                         <option>Eddie</option>
                         <option selected>Rufus</option>
@@ -72,7 +70,32 @@
                 </div>
             </div>
             <p class="alert alert-success odpoved collapse">Eddie</p>
-            <hr>            
+            <hr>
+
+            <p class="alert alert-warning otazka">3. Ozzy Osbourne byl člen jaké kapely?</p>
+            <div class="form-group row">
+                <label for="kral" class="col-sm-3 col-form-label">Kapela</label>
+                <div class="col-sm-3">
+                      <select class="form-control" name="clen" id="clen">
+                        <option>Iron Maiden</option>
+                        <option>Slayer</option>
+                        <option selected>Motörhead</option>
+                        <option>Black Sabbath</option>
+                      </select>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">Black Sabbath</p>
+            <hr> 
+            <p class="alert alert-warning otazka">4. Která kapela patří do tzv. „velké čtyřky “ amerického thrash metalu</p>
+            <div class="form-group row">
+                <label for="listina" class="col-sm-3 col-form-label">Kapela </label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="velka4" id="velka4" placeholder="">
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse">Slayer</p>
+            <hr>
+
             <div class="form-group row">
                 <div class="offset-sm-2 col-sm-10">
                     <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".odpoved">Vyhodnotit kvíz</button>
